@@ -4,6 +4,25 @@ This is an initial starter template for Vite and Vue3.
 
 There are the base setup of plugins and config to get started on a project quicker without having to initially import, configure and add plugins.
 
+# Table of Contents
+- [Vite Base Starter Template - Vue](#vite-base-starter-template---vue)
+- [Table of Contents](#table-of-contents)
+  - [Pre-Installed and configured plugins](#pre-installed-and-configured-plugins)
+  - [Skeleton structure](#skeleton-structure)
+    - [Vuex](#vuex)
+      - [Adding Modules](#adding-modules)
+    - [Vue Router](#vue-router)
+      - [Turn on Vue Router](#turn-on-vue-router)
+      - [Vue Router Config](#vue-router-config)
+  - [Customisable Cofigurations](#customisable-cofigurations)
+    - [eslint](#eslint)
+    - [prettier](#prettier)
+    - [Tailwindcss](#tailwindcss)
+  - [Running and building](#running-and-building)
+  - [Recommended IDE Setup](#recommended-ide-setup)
+
+
+
 ## Pre-Installed and configured plugins
 
 - autoprefixer
@@ -114,6 +133,9 @@ It's only route is set to `/` and is the `Home` component of `HelloWorld` that l
 There is also an example of `scrollBehavior` which allows for custom scrolling between pages and by default scrolls to the top of the page on each route change.
 
 There is also a commented out section as an exampe on how to pass props to a component via routes as well.
+
+
+You can find more info and configurations on the official Vue Router site here: [Vue Router Official Site](https://router.vuejs.org/)
 
 
 ## Customisable Cofigurations
