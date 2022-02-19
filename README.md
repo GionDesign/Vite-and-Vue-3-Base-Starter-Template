@@ -21,22 +21,22 @@ There are the base setup of plugins and config to get started on a project quick
 
 ## Pre-Installed and configured plugins
 
-- autoprefixer
-- axios
-- eslint
-- eslint-config-prettier
-- eslint-plugin-vue
-- lodash
-- postcss
-- prettier
-- sass
-- sass-loader
-- tailwindcss
-- vee-validate
-- vue-axios
-- vue-router
-- vue3-mq
-- vuex
+- autoprefixer - [npm package](https://www.npmjs.com/package/autoprefixer)
+- axios - [npm package](https://www.npmjs.com/package/axios)
+- eslint - [npm package](https://www.npmjs.com/package/eslint)
+- eslint-config-prettier - [npm package](https://www.npmjs.com/package/eslint-config-prettier)
+- eslint-plugin-vue - [npm package](https://www.npmjs.com/package/eslint-plugin-vue)
+- lodash - [npm package](https://www.npmjs.com/package/lodash)
+- postcss - [npm package](https://www.npmjs.com/package/postcss)
+- prettier - [npm package](https://www.npmjs.com/package/prettier)
+- sass - [npm package](https://www.npmjs.com/package/sass)
+- sass-loader - [npm package](https://www.npmjs.com/package/sass-loader)
+- tailwindcss - [npm package](https://www.npmjs.com/package/tailwindcss)
+- vee-validate - [npm package](https://www.npmjs.com/package/vee-validate)
+- vue-axios - [npm package](https://www.npmjs.com/package/vue-axios)
+- vue-router - [npm package](https://www.npmjs.com/package/vue-router)
+- vue3-mq - [npm package](https://www.npmjs.com/package/vue3-mq)
+- vuex - [npm package](https://www.npmjs.com/package/vuex)
 
 ## Skeleton structure
 
