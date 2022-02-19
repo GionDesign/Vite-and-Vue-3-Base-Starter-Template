@@ -63,7 +63,7 @@ Vuex in this project is setup to use namespaced modules, at the moment there are
 
 #### Adding Modules
 
-To add a namespaced module to Vuex, create the module itself, i.e. within the store file, or even create a modules folder within the store folder to create yout modules (my preference so they're all in one place and don't fill up the store folder).
+To add a namespaced module to Vuex, create the module itself, i.e. within the store folder, or even create a modules folder within the store folder to create yout modules (my preference so they're all in one place and don't fill up the store folder).
 
 `general-store.module.js`
 
@@ -105,6 +105,7 @@ export default {
 ```
 
 And then within the `index.js` of the `store`, import the module at the top and add the import module name to the modules section:
+
 ```
 import { createStore } from 'vuex'
 import GeneralStore from './modules/general-store.module.js
@@ -130,22 +131,20 @@ Vue router is setup to use in the project as well with base skeleton structure. 
 
 #### Turn on Vue Router
 
-To have vue router functioning, ou just need to open the `App.vue` file within the `src` folder and uncomment the tag `<router-view />`
+To have vue router functioning, you just need to open the `App.vue` file within the `src` folder and uncomment the tag `<router-view />`
 
 Then when running again it will display the vue router components in this section.
 
 #### Vue Router Config
 
-Vue router in this project is only setup with a basic default route. 
+Vue router in this project is only setup with a basic default route.
 It's only route is set to `/` and is the `Home` component of `HelloWorld` that loads.
 
 There is also an example of `scrollBehavior` which allows for custom scrolling between pages and by default scrolls to the top of the page on each route change.
 
 There is also a commented out section as an exampe on how to pass props to a component via routes as well.
 
-
 You can find more info and configurations on the official Vue Router site here: [Vue Router Official Site](https://router.vuejs.org/)
-
 
 ## Customisable Cofigurations
 
@@ -154,6 +153,7 @@ You can find more info and configurations on the official Vue Router site here: 
 Within the main folder there is a file called `.eslintrc.js` and this has the configurations for eslint that can be adjusted according to your preferences.
 
 The initial linting rules that are set are:
+
 ```
 rules: {
     // override/add rules settings here, such as:
@@ -175,6 +175,7 @@ You can find a full list of the eslint rules and configuration here: [eslint con
 The prettier configuration can be found within the `.prettierrc.json` file within the root of the project.
 
 The initial configuration consists of:
+
 ```
 {
   "singleQuote": true,
@@ -191,6 +192,7 @@ This base project only has the base inital setup for tailwind css.
 You can find the main configuration within the `tailwind.config.js` file within the root folder.
 
 The initial configuration for tailwindcss consists of:
+
 ```
 // an array of the colour classes to add to the safelist so they do not get purged in
 // production compile
@@ -219,6 +221,7 @@ When the project builds using tailwindcss, if the classes are not inline then on
 By adding them to the safelist file it still includes them in the final build and prevents them from being purged.
 
 `tailwind-safelist.js` example:
+
 ```
 // list tailwind classes here that are dynamically loaded in code and are not inline
 // so they do not get purged on build
@@ -230,14 +233,17 @@ module.exports = [
 
 ```
 
+You can find more configurations and settings for tailwind at their official site: [tailwindcss Official Site](https://tailwindcss.com/docs/installation)
+
 ## Styling
 
-The project allows for inline styling and using tailwindcss classes throughout, however there is also scss imports as well.
+The project allows for inline styling and using tailwindcss classes throughout, however there are also scss imports into the project.
 
 within the `src > assets` folder you can find the `scss` folder.
 
 This contains any custom styling classes that can be imported into the project.
 main `style.scss` just imports the other `scss` files into it from the `partials` folder or any other styling files you want to create.
+There is i scss file within the parials folder and loaded into the `style.scss` file as an example for reference.
 
 Then the `style.scss` is imported in to the project within the `main.js` file.
 
