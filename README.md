@@ -5,6 +5,8 @@ This is an initial starter template for Vite and Vue3.
 There are the base setup of plugins and config to get started on a project quicker without having to initially import, configure and add plugins.
 
 # Table of Contents
+  - [Running and building](#running-and-building)
+  - [Recommended IDE Setup](#recommended-ide-setup)
   - [Pre-Installed and configured plugins](#pre-installed-and-configured-plugins)
   - [Skeleton structure](#skeleton-structure)
     - [Vuex](#vuex)
@@ -16,8 +18,19 @@ There are the base setup of plugins and config to get started on a project quick
     - [eslint](#eslint)
     - [prettier](#prettier)
     - [Tailwindcss](#tailwindcss)
-  - [Running and building](#running-and-building)
-  - [Recommended IDE Setup](#recommended-ide-setup)
+  - [Styling](#styling)
+
+## Running and building
+
+To Run locally with Hot Module Replacement:
+`yarn dev`
+
+To build the project:
+`yarn build`
+
+## Recommended IDE Setup
+
+- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
 ## Pre-Installed and configured plugins
 
@@ -217,14 +230,15 @@ module.exports = [
 
 ```
 
-## Running and building
+## Styling
 
-To Run locally with Hot Module Replacement:
-`yarn dev`
+The project allows for inline styling and using tailwindcss classes throughout, however there is also scss imports as well.
 
-To build the project:
-`yarn build`
+within the `src > assets` folder you can find the `scss` folder.
 
-## Recommended IDE Setup
+This contains any custom styling classes that can be imported into the project.
+main `style.scss` just imports the other `scss` files into it from the `partials` folder or any other styling files you want to create.
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Then the `style.scss` is imported in to the project within the `main.js` file.
+
+**The `css` folder only contains the `style.css` which is used to import the `tailwindcss` library
