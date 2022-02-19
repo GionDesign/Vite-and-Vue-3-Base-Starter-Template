@@ -243,8 +243,9 @@ within the `src > assets` folder you can find the `scss` folder.
 
 This contains any custom styling classes that can be imported into the project.
 main `style.scss` just imports the other `scss` files into it from the `partials` folder or any other styling files you want to create.
-There is i scss file within the parials folder and loaded into the `style.scss` file as an example for reference.
+
+**There is a scss file within the parials folder and loaded into the `style.scss` file as an example for reference.**
 
 Then the `style.scss` is imported in to the project within the `main.js` file.
 
-**The `css` folder only contains the `style.css` which is used to import the `tailwindcss` library
+**The `css` folder only contains the `style.css` which is used to import the `tailwindcss` library**
