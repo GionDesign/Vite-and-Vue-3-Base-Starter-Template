@@ -1,4 +1,4 @@
-# Vite Base Starter Template - Vue
+# Vite Base Starter Template - Vue3
 
 This is an initial starter template for Vite and Vue3.
 
@@ -42,6 +42,7 @@ To build the project:
 - lodash - [npm package](https://www.npmjs.com/package/lodash)
 - postcss - [npm package](https://www.npmjs.com/package/postcss)
 - prettier - [npm package](https://www.npmjs.com/package/prettier)
+- prettier-plugin-tailwindcss - [npm package](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
 - sass - [npm package](https://www.npmjs.com/package/sass)
 - sass-loader - [npm package](https://www.npmjs.com/package/sass-loader)
 - tailwindcss - [npm package](https://www.npmjs.com/package/tailwindcss)
