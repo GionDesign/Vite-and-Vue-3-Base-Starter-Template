@@ -5,8 +5,6 @@ This is an initial starter template for Vite and Vue3.
 There are the base setup of plugins and config to get started on a project quicker without having to initially import, configure and add plugins.
 
 # Table of Contents
-- [Vite Base Starter Template - Vue](#vite-base-starter-template---vue)
-- [Table of Contents](#table-of-contents)
   - [Pre-Installed and configured plugins](#pre-installed-and-configured-plugins)
   - [Skeleton structure](#skeleton-structure)
     - [Vuex](#vuex)
