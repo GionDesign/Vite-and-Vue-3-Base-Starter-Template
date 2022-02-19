@@ -23,6 +23,99 @@ There are the base setup of plugins and config to get started on a project quick
 - vue3-mq
 - vuex
 
+## Skeleton structure
+
+This project is just a base skeleton for initial projects with base configuration.
+
+For example, `vue-router` and `vuex` are implemented and have their router folder and store folder setup, however there are no modules in the store and the router has the initial base routing config setup.
+
+### Vuex
+
+Vuex in this project is setup to use namespaced modules, at the moment there are no modules configured in the store however you can add them easily to the project
+
+#### Adding Modules
+
+To add a namespaced module to Vuex, create the module itself, i.e. within the store file, or even create a modules folder within the store folder to create yout modules (my preference so they're all in one place and don't fill up the store folder).
+
+`general-store.module.js`
+
+And within that have your state/getters/actions/mutations and then the export for them in the file.
+i.e.
+
+```
+const state = {
+  ...
+  // add state values here
+  ...
+}
+
+const getters = {
+  ...
+  // add getters here
+  ...
+}
+
+const actions = {
+  ...
+  // add actions here
+  ...
+}
+
+const mutations = {
+  ...
+  // add mutations here
+  ...
+}
+
+export default {
+  namespaced: true,
+  state,
+  getters,
+  actions,
+  mutations,
+}
+```
+
+And then within the `index.js` of the `store`, import the module at the top and add the import module name to the modules section:
+```
+import { createStore } from 'vuex'
+import GeneralStore from './modules/general-store.module.js
+
+...
+
+export default createStore({
+  modules: {
+    ...
+    GeneralStore,
+    ...
+  },
+  strict: debug,
+})
+
+```
+
+You can find more details on Vuex and it's setup and config using their official docs here: [Vuex Official Site](https://vuex.vuejs.org/guide/)
+
+### Vue Router
+
+Vue router is setup to use in the project as well with base skeleton structure. It is not configured to use to start off with, however it is simple to turn on.
+
+#### Turn on Vue Router
+
+To have vue router functioning, ou just need to open the `App.vue` file within the `src` folder and uncomment the tag `<router-view />`
+
+Then when running again it will display the vue router components in this section.
+
+#### Vue Router Config
+
+Vue router in this project is only setup with a basic default route. 
+It's only route is set to `/` and is the `Home` component of `HelloWorld` that loads.
+
+There is also an example of `scrollBehavior` which allows for custom scrolling between pages and by default scrolls to the top of the page on each route change.
+
+There is also a commented out section as an exampe on how to pass props to a component via routes as well.
+
+
 ## Customisable Cofigurations
 
 ### eslint
@@ -105,6 +198,14 @@ module.exports = [
 ]
 
 ```
+
+## Running and building
+
+To Run locally with Hot Module Replacement:
+`yarn dev`
+
+To build the project:
+`yarn build`
 
 ## Recommended IDE Setup
 
