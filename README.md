@@ -39,6 +39,7 @@ To build the project:
 - eslint - [npm package](https://www.npmjs.com/package/eslint)
 - eslint-config-prettier - [npm package](https://www.npmjs.com/package/eslint-config-prettier)
 - eslint-plugin-vue - [npm package](https://www.npmjs.com/package/eslint-plugin-vue)
+- @heroicons/vue - [npm package](https://www.npmjs.com/package/@heroicons/vue) - [icon library](https://heroicons.com/)
 - lodash - [npm package](https://www.npmjs.com/package/lodash)
 - postcss - [npm package](https://www.npmjs.com/package/postcss)
 - prettier - [npm package](https://www.npmjs.com/package/prettier)
