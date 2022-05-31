@@ -2,11 +2,8 @@
 // production compile
 const tailwindCssPurgeSafelist = require('./src/config/tailwind-safelist.js')
 module.exports = {
-  purge: {
-    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-    safeList: tailwindCssPurgeSafelist,
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  safeList: tailwindCssPurgeSafelist,
   theme: {
     extend: {},
   },

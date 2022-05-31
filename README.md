@@ -5,20 +5,21 @@ This is an initial starter template for Vite and Vue3.
 There are the base setup of plugins and config to get started on a project quicker without having to initially import, configure and add plugins.
 
 # Table of Contents
-  - [Running and building](#running-and-building)
-  - [Recommended IDE Setup](#recommended-ide-setup)
-  - [Pre-Installed and configured plugins](#pre-installed-and-configured-plugins)
-  - [Skeleton structure](#skeleton-structure)
-    - [Vuex](#vuex)
-      - [Adding Modules](#adding-modules)
-    - [Vue Router](#vue-router)
-      - [Turn on Vue Router](#turn-on-vue-router)
-      - [Vue Router Config](#vue-router-config)
-  - [Customisable Cofigurations](#customisable-cofigurations)
-    - [eslint](#eslint)
-    - [prettier](#prettier)
-    - [Tailwindcss](#tailwindcss)
-  - [Styling](#styling)
+
+- [Running and building](#running-and-building)
+- [Recommended IDE Setup](#recommended-ide-setup)
+- [Pre-Installed and configured plugins](#pre-installed-and-configured-plugins)
+- [Skeleton structure](#skeleton-structure)
+  - [Vuex](#vuex)
+    - [Adding Modules](#adding-modules)
+  - [Vue Router](#vue-router)
+    - [Turn on Vue Router](#turn-on-vue-router)
+    - [Vue Router Config](#vue-router-config)
+- [Customisable Cofigurations](#customisable-cofigurations)
+  - [eslint](#eslint)
+  - [prettier](#prettier)
+  - [Tailwindcss](#tailwindcss)
+- [Styling](#styling)
 
 ## Running and building
 
